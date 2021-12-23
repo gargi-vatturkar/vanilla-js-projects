@@ -30,7 +30,9 @@ Searches based on Movie names.
 Github Profiles App
 
 Weather App
-Hits the Open Weather Map API with the given city/province
+Hits the Open Weather Map API with the given city/province.
+Shows some other details like Pressure, Humidity and Longitude/Latitude.
+
 ![image](https://user-images.githubusercontent.com/87892022/147262037-b5b1b47a-c1c4-4959-9c03-2c77807d0ef5.png)
 
 ![image](https://user-images.githubusercontent.com/87892022/147262546-2f150290-a086-4d59-923d-8fb34cfc608d.png)
