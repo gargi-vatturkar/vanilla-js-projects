@@ -1,5 +1,5 @@
 # vanilla-js-projects
-Some basic Vanilla JS projects done by me
+Some basic Vanilla JS projects developed by me
 
 JS PRojects with Screenshots - 
 Quiz App:
