@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <div style="width: 100%;">
+        <header>
+            <span>
+                <h1>RECIPE APP</h1>
+            </span>
+            <span>
+                <input type="text" id="searchInput">
+                <button id="search"><i class="fas fa-search"></i></button></span>
+        </header>
+
+        <div class="fav-container">
+            <h3>MealDB Categories</h3>
+            <ul class="fav-meals" id="cats">
+            </ul>
+        </div>
+
+        <div id="category-meal-cont" class="search-cont"></div>
+
+        <div id="search-cont" class="search-cont"></div>
+
+        <div id="show-id"></div>
+
+        <div class="rec-container" id="random-cont">
+            <div class="meal" id="meal">
+                <div class="meal-header" id="meal-header">
+                    <span class="random">
+                        Recipe of the day
+                    </span>
+                    <img src="https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg" alt="">
+                </div>
+                <div class="meal-body">
+                    <h4 id="random-name"></h4>
+                    <button id="view">View</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

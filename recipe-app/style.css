@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+}
+
+button{ cursor: pointer; }
+
+.rec-container{
+    background-color: white;
+    box-shadow: 0 0 5px #3333331A;
+    border-radius: 3px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin: 0;
+}
+
+header{
+    padding: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header input{
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    background-color: #cecece;
+    font-family: inherit;
+}
+
+header input:focus{
+    outline: none;
+}
+
+header button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin-left: 8px;
+}
+
+.fav-container{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(241, 188, 241);
+}
+
+.fav-container h3{
+    margin-top: 0;
+}
+
+.fav-meals{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fav-meals li{
+    width: 130px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.fav-meals li span{
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fav-meals li img{
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px #3333331A;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 95px;
+    height: 95px;
+}
+
+.meal{
+    background-color: #fff;
+    box-shadow: 0 0 5px #3333331A;
+    border-radius: 4px;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 500px;
+}
+
+.meal-header{
+    position: relative;
+}
+
+.meal-header .random{
+    position: absolute;
+    top: 16px;
+    font-weight: bold;
+    background-color: white;
+    opacity: 0.7;
+    padding: 0.25rem 1rem;
+    border-radius: 0 4px 4px 0;
+}
+
+.meal-header img{
+    height: auto;
+    width: 100%;
+    max-height: 350px;
+}
+.meal-body{
+    display: flex;
+    padding: 1rem;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.meal-body h4{
+    margin: 0;
+}
+
+.meal-body button{
+   padding: 4px 20px;
+   font-size: 1rem;
+   font-family: inherit;
+   font-weight: normal;
+   border: 1px solid black;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+.full-recipe-cont button { 
+    border: none; font-size: 1.2rem; float: right;
+    background-color: transparent; }
+
+.meal-body button:hover{
+    background-color: violet;
+    border: 1px solid violet;
+ }
+
+.full-recipe-cont img{
+    width: 400px;
+    border-radius: 4px;
+}
+
+.full-recipe-inner{
+    margin: 2rem 2rem;
+}
+
+.full-recipe-inner h2{
+    margin-top: 0;
+}
+
+.full-recipe-cont{
+    display: flex;
+    background-color: #999999e3;
+    box-shadow: 0 0 5px #3333331a;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-wrapper{
+    overflow-y: scroll;
+    display: flex;
+    width: 70vw;
+    max-height: 80vh;
+    background: white;
+    border-radius: 8px;
+}
+
+.search-cont h3{
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+.search-cont .search-inner{
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search-cont .meal{
+    width: 27vw!important;
+}
