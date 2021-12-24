@@ -1,4 +1,4 @@
-const apiKey = "04c35731a5ee918f014970082a0088b1";
+const apiKey = "my-api-key";
 const imagePath = "https://image.tmdb.org/t/p/w1280";
 
 const mainEl = document.querySelector("main");
