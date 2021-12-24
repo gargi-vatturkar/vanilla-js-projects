@@ -20,7 +20,7 @@ Shows recipe instructions along with measures too.
 ![image](https://user-images.githubusercontent.com/87892022/132084611-0d69b47c-bc58-4191-a149-a755dc3a53c3.png)
 
 Movies App:
-Hit The Movie DB (TMDB) to get Top 20 popular movies along with rating and overview.
+Hits The Movie DB (TMDB) to get Top 20 popular movies along with rating and overview.
 Searches based on Movie names.
 
 ![image](https://user-images.githubusercontent.com/87892022/132084736-9e893433-e799-426d-870f-845a7c6af918.png)
@@ -28,6 +28,10 @@ Searches based on Movie names.
 ![image](https://user-images.githubusercontent.com/87892022/132084745-564ef409-6d00-40df-9493-be4147e13eb4.png)
 
 Github Profiles App
+
 Weather App
+Hits the Open Weather Map API with the given city/province
+![image](https://user-images.githubusercontent.com/87892022/147262037-b5b1b47a-c1c4-4959-9c03-2c77807d0ef5.png)
+
 Drawing App
 
